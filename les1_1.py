@@ -85,9 +85,9 @@ while not rev.isdigit():
     rev = input("Wrong input, only numeric values allowed \nEnter your company's revenue \n>>>")
 rev = int(rev)
 
-expenses = input("Your company's costs \n>>>")
+expenses = input("Your company's expenses \n>>>")
 while not expenses.isdigit():
-    expenses = input("Wrong input, only numeric values allowed \nEnter your company's costs \n>>>")
+    expenses = input("Wrong input, only numeric values allowed \nEnter your company's expenses \n>>>")
 expenses = int(expenses)
 
 if rev > expenses:
